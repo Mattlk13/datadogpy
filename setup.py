@@ -22,7 +22,7 @@ setup(
     install_requires=install_reqs,
     tests_require=[
         "pytest", "mock",
-        'pillow==5.4.1; python_version == "3.4"',
+        'pillow==10.0.1; python_version == "3.4"',
         'pillow; python_version != "3.4"',
     ],
     packages=["datadog", "datadog.api", "datadog.dogstatsd", "datadog.threadstats", "datadog.util", "datadog.dogshell"],
